@@ -5,3 +5,77 @@
   font-weight: 400;
   font-style: normal;
 }
+.brand{
+    font-size: 18px;
+    font-weight: 700;
+    font: bold;
+    color: #131313;
+  
+}
+.text-gray{
+    color: #424242;
+}
+.text-light-gray{
+    color: #000000;
+}
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+    margin: 50px 100px;
+}
+.display-flex{
+    display: flex;
+   
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px 5px;
+   
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    
+    
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+   
+}
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-image{
+    width: 100%;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.btn-primary{
+    font-size: 1.25rme;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    width: 150px;
+    height: 60px;
+    padding: 20px 25px;
+}
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin: 81px 301px;
+    
+}
